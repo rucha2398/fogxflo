@@ -1,3 +1,23 @@
-h1 {
-
+body {
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: white;
 }
+
+h1 {
+	font-size: 20pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+img {
+	border-style: dotted;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
