@@ -41,7 +41,7 @@ img {
 .card .img-top {
     display: none;
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 30%;
     z-index: 99;
 }
