@@ -2,6 +2,7 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 <title>fogxFLO</title>
 
@@ -9,7 +10,7 @@
 
 <body BGCOLOR="#000000">
 
-<h2><center><font color="white">welcome to fogxFLO</font></center></h2>
+<h1><center><font color="white">welcome to fogxFLO</font></center></h1>
 
 <script type="text/javascript">
 	var now = new Date();
@@ -33,14 +34,14 @@
 	var minutes = now.getMinutes();
 	var hour12 = now.getHours() - 12;
 
-	if (hour > 12 && minutes < 10 )
-		{document.write('<h1><center><font color="white">' + "It is " + hour12 + ":" + "0" + minutes + '</font></center></h1>');}
+	if (hour > 12 && minutes <= 10 )
+		{document.write('<h2><center><font color="white">' + "It is " + hour12 + ":" + "0" + minutes + '</font></center></h2>');}
 	else if (hour > 12 && minutes > 10)
-		{document.write('<h1><center><font color="white">' + "It is " + hour12 + ":" + minutes + '</font></center></h1>');}
+		{document.write('<h2><center><font color="white">' + "It is " + hour12 + ":" + minutes + '</font></center></h2>');}
 	else if (hour < 12 && minutes < 10)
-		{document.write('<h1><center><font color="white">' + "It is " + hour + ":" + "0" + minutes + '</font></center></h1>');}
+		{document.write('<h2><center><font color="white">' + "It is " + hour + ":" + "0" + minutes + '</font></center></h2>');}
 	else 
-		{document.write('<h1><center><font color="white">' + "It is " + hour + ":" + minutes + '</font></center></h1>');}
+		{document.write('<h2><center><font color="white">' + "It is " + hour + ":" + minutes + '</font></center></h2>');}
 
 </script>
 
