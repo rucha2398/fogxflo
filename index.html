@@ -12,42 +12,50 @@
 
 <h1><center><font color="white">welcome to fogxFLO</font></center></h1>
 
-
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	var now = new Date();
 	var today = now.getDay();
 	var hour = now.getHours();
 	var minutes = now.getMinutes();
 
+	if (hour == 11 && minutes == 55)
+		{document.write('<video width="400" height="320" class="center" controls> <source src="8.mp4" type="video/mp4"></video>');}
+
+	</script> -->
+
+
+<script type="text/javascript">
+	var now = new Date();
+	var today = now.getDay();
+	var hour = now.getHours();
+
     if (hour > 0 && hour < 8)
 		{document.write('<img src="fogxclosed.jpg" class="center">');}
 	else if (hour == 8)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
-	// else if (minutes == 19)
-	// 	{document.write('<video width="400" height="320" class="center" controls> <source src="8.mp4" type="video/mp4"></video>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 9)
-		{document.write('<div class="card"><img src="1030.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="1030.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 10)
-		{document.write('<div class="card"><img src="1130.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
-	else if (hour == 11)
+		{document.write('<div class="card"><img src="1130.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
+	else if (hour == 11) 
 		{document.write('<div class="card"><img src="1030.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 12)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 13)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 14)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 15)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 16)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 17)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 18)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
 	else if (hour == 19)
-		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsive"></div>');}
-	else
+		{document.write('<div class="card"><img src="930.jpg" class="center responsive"><img src="postcardback.png" class="img-top center responsiveback"></div>');}
+	else 
 		{document.write('<img src="fogxclosed.png" class="center">');}
 </script>
 
@@ -60,6 +68,8 @@
 
 	if (hour > 12 && minutes <= 10 )
 		{document.write('<h2><center><font color="white">' + "It is " + hour12 + ":" + "0" + minutes + '</font></center></h2>');}
+	else if (hour == 12 && minutes <= 10)
+		{document.write('<h2><center><font color="white">' + "It is " + hour + ":" + "0" + minutes + '</font></center></h2>');}
 	else if (hour > 12 && minutes > 10)
 		{document.write('<h2><center><font color="white">' + "It is " + hour12 + ":" + minutes + '</font></center></h2>');}
 	else if (hour < 12 && minutes < 10)
