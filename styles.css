@@ -27,6 +27,11 @@ h2 {
 	height: 50%;
 }
 
+.responsiveback {
+	width: 42%;
+	height: 109%;
+}
+
 .responsive {
     width: 40%;
     height: auto;
@@ -40,8 +45,8 @@ h2 {
 .card .img-top {
     display: none;
     position: absolute;
-    top: 0%;
-    left: 30%;
+    top: -4%;
+    left: 29%;
     z-index: 99;
 }
     
