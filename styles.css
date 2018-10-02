@@ -80,28 +80,6 @@ a:visited {
 	color: #228B22;
 }
 
-.button {
-    background-color: #F0EAD6; /* Green */
-    border: solid;
-    border-width: medium;
-    border-color: #000000;
-    border-radius: 12px;
-    color: #228B22;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 
 
 
