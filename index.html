@@ -6,12 +6,11 @@
 
 <title>fogxFLO</title>
 
+<a href="index.html"> <h1><center><font color="white">fogxFLO</font></center></h1> </a>
+
 </head>
 
 <body BGCOLOR="#000000">
-
-
-<h1><center><font color="white">fogxFLO</font></center></h1>
 
 <!-- <script type="text/javascript">
 	var now = new Date();
@@ -23,6 +22,24 @@
 		{document.write('<video width="400" height="320" class="center" controls> <source src="8.mp4" type="video/mp4"></video>');}
 
 	</script> -->
+
+
+<script type="text/javascript">
+	var now = new Date();
+	var minutes = now.getMinutes();
+
+if (minutes == 30 || minutes == 0) {
+    if (document.body) {
+        document.body.className = "fog";
+    }
+}
+else {
+    if (document.body) {
+        document.body.className = "nofog";
+    }
+}
+
+</script>
 
 
 <script type="text/javascript">
@@ -81,7 +98,7 @@
 
 <ul> 
 	<center>
-  <li><a href="about.html" target="_blank">visit</a></li>
+  <li><a href="about.html">about</a></li>
 </center>
 </ul>
 
